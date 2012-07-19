@@ -64,6 +64,7 @@ module Redmine
       o << javascript_include_tag("/javascripts/shBrushCss.js")
       o << javascript_include_tag("/javascripts/shBrushDelphi.js")
       o << javascript_include_tag("/javascripts/shBrushDiff.js")
+      o << javascript_include_tag("/javascripts/shBrushErb.js")
       o << javascript_include_tag("/javascripts/shBrushErlang.js")
       o << javascript_include_tag("/javascripts/shBrushGroovy.js")
       o << javascript_include_tag("/javascripts/shBrushJScript.js")
