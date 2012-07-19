@@ -2,6 +2,8 @@
 
 A Redmine plugin that replaces the default syntax highlighting engine (CodeRay) with a JavaScript based {syntax highlighter}[http://alexgorbatchev.com/SyntaxHighlighter].
 
+For standalone resource loading update source from http://www.redmine.org/issues/3382#note-37
+
 = Installation:
 
 Next, use Rails' handy-dandy plugin installer to grab this plugin:
