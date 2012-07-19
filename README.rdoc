@@ -16,6 +16,6 @@ Next, standalone resource installation:
   cp <REDMINE_PATH>/vendor/plugins/redmine_js_syntax_highlighter/assets/scripts/* <REDMINE_PATH>/public/javascripts/
   cp <REDMINE_PATH>/vendor/plugins/redmine_js_syntax_highlighter/assets/styles/* <REDMINE_PATH>/public/stylesheets/
 
-Additionaly, Fix up owner Permission issue
+Additionally, Fix up owner Permission issue
 
   chown -R redmineui.redmine javascripts/ stylesheets/
