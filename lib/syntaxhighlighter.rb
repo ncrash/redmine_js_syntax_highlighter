@@ -30,7 +30,7 @@ module Redmine
         def theme
 		  # return user setting for theme
 		  user_theme = User.current.custom_value_for(CustomField.first(:conditions => {:name => Redmine::SyntaxHighlighting::JsSyntaxHighlighter::SETTING_KEY_THEME}))
-		  user_theme.value || self::DEFAULT_THEME
+		  user_theme || self::DEFAULT_THEME
         end
       end
       
